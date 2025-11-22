@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-sand-50 text-sand-900 font-body antialiased;
+  background-image: radial-gradient(circle at 20% 20%, rgba(254, 243, 199, 0.5), transparent 55%),
+    radial-gradient(circle at 80% 0%, rgba(199, 210, 254, 0.35), transparent 60%);
+}
+
+::selection {
+  @apply bg-sand-400 text-sand-50;
+}
